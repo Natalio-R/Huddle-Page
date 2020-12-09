@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+:root {
+  --Pink: #ff52bf;
+  --LightPink: hsl(321, 100%, 78%);
+  --LightRed: hsl(0, 100%, 63%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --VeryPaleBlue: hsl(207, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 400px;
+}
+
+.menu {
+  position: absolute;
+  top: 70px;
+  left: 60px;
+  width: 100%;
+}
+
+.try {
+  width: 180px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid var(--Pink);
+  border-radius: 30px;
+  color: var(--Pink);
+  cursor: pointer;
+  margin-left: 70%;
+  font-size: 20px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 82, 192, 0.55);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255, 82, 192, 0.55);
+  box-shadow: 0px 0px 10px 0px rgba(255, 82, 192, 0.55);
+  margin-bottom: 10px;
+}
+
+.try:hover {
+  border: 1px solid var(--LightPink);
+}
+
+.num-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.titulo {
+  color: var(--VeryDarkCyan);
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+  margin-bottom: 25px;
+}
+
+.descripcion {
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryDarkCyan);
+  margin-bottom: 35px;
+  width: 900px;
+  font-size: 30px;
+}
+
+.started {
+  width: 600px;
+  height: 80px;
+  border-radius: 40px;
+  border: none;
+  background: var(--Pink);
+  color: var(--VeryPaleBlue);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(255, 82, 192, 0.55);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(255, 82, 192, 0.55);
+  box-shadow: 0px 5px 10px 0px rgba(255, 82, 192, 0.55);
+  margin-bottom: 10px;
+}
+
+.started:hover {
+  background: var(--LightPink);
+}
+
+.img-01 {
+  width: 1300px;
+  margin-top: 10%;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.comunidades {
+  text-align: left;
+  margin-right: 30%;
+}
+
+.mensajes {
+  text-align: left;
+}
+
+.cantidad {
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryDarkCyan);
+  font-size: 100px;
+  text-align: center;
+}
+
+.tipo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: var(--LightPink);
+  text-align: center;
+}
+
+.num-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #f6fbff;
+  width: 100%;
+}
+
+.sec-titulo {
+  color: var(--VeryDarkCyan);
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.sec-descripcion {
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryDarkCyan);
+  width: 650px;
+  font-size: 20px;
+}
+
+.sec-01-top {
+  left: 0;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.sec-01-bottom {
+  left: 0;
+  width: 100%;
+}
+
+.sec-01-img {
+  margin-left: 10%;
+  width: 600px;
+}
+
+.num-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.sec-02-img {
+  margin-right: 10%;
+  width: 600px;
+}
+
+.num-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #f6fbff;
+  width: 100%;
+}
+
+.sec-03-img {
+  margin-left: 10%;
+  width: 600px;
+}
+
+.num-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.final-titulo {
+  color: var(--VeryDarkCyan);
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin-bottom: 35px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background: var(--VeryDarkCyan);
+  margin-top: -1px;
+  justify-content: center;
+}
+
+.footer-top-img {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.footer-logo {
+  width: 400px;
+  filter: invert(1) sepia(1) saturate(0%);
+  margin-bottom: 30px;
+}
+
+.resumen {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  justify-content: center;
+  text-align: left;
+  margin: 5% 15%;
+}
+
+.footer-p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryPaleBlue);
+  font-size: 20px;
+  width: 450px;
+}
+
+.contacto {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.fas {
+  color: var(--VeryPaleBlue);
+  font-size: 35px;
+}
+
+.tel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 12px;
+  margin-right: 40px;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryPaleBlue);
+  font-size: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.links {
+  margin-top: 20%;
+}
+
+.fab {
+  color: var(--VeryPaleBlue);
+  font-size: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.fab:hover {
+  color: rgb(0, 204, 255);
+}
+
+.newsletter {
+  width: 1700px;
+  margin: 5.5% 10%;
+}
+
+.news-title {
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryPaleBlue);
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.newsletter-p {
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryPaleBlue);
+  font-size: 20px;
+  width: 480px;
+  margin-bottom: 50px;
+}
+
+.correo {
+  width: 450px;
+  height: 60px;
+  background: var(--VeryPaleBlue);
+  border: none;
+  border-radius: 8px;
+  font-family: "Open Sans", sans-serif;
+  color: var(--VeryDarkCyan);
+  font-size: 20px;
+  text-indent: 20px;
+}
+
+.correo::-webkit-input-placeholder {
+  margin-left: 20px;
+}
+
+.btn-send {
+  margin-left: 40px;
+  width: 170px;
+  height: 60px;
+  background: var(--Pink);
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  color: var(--VeryDarkCyan);
+  font-size: 20px;
+  color: var(--VeryPaleBlue);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-send:hover {
+  background: var(--LightPink);
+}
+
+.fa-twitter-square,
+.fa-instagram {
+  margin-left: 30px;
+}
